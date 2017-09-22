@@ -1,0 +1,25 @@
+$bg-color: #eee
+$color: #444
+
+html
+  &:before,
+  &:after
+    position: fixed
+    content: ""
+    width: 100%
+    height: 20px
+    left: 0
+  &:before
+    border-top: 20px solid purple
+    top: 0
+  &:after
+    border-bottom: 20px solid purple
+    bottom: 0
+
+body
+  background: $bg-color
+  color: $color
+  margin: 0
+  padding: 20px
+  border-left: 20px solid purple
+  border-right: 20px solid purple
